@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+    <title>Samar</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome - ICON -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Line Awesome - ICON -->
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <!-- Flat Icon - ICON -->
+    <link rel="stylesheet" href="./css/flaticon/flaticon.css" />
+    <!-- Animate CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Fancy Box CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
+    />
+    <!-- Owl Carousel CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- ! HEADER -->
+    <header>
+      <div class="container">
+        <div class="header__content">
+          <a href="#">
+            <img src="./img/logo-2.png" alt="Samar Logo" />
+          </a>
+          <nav>
+            <ul>
+              <li>
+                <a href="#">
+                  <span class="active">Home</span>
+                  <i class="fa fa-chevron-down active"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>Pages</span>
+                  <i class="fa fa-chevron-down"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#service">
+                  <span>Services</span>
+                  <i class="fa fa-chevron-down"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#about">
+                  <span>Post Layout</span>
+                  <i class="fa fa-chevron-down"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#blog">
+                  <span>Blog</span>
+                  <i class="fa fa-chevron-down"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#contact">
+                  <span>Contact Us</span>
+                  <i class="fa fa-chevron-down"></i>
+                </a>
+              </li>
+            </ul>
+            <button class="btn-gradient">Get a quote</button>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- ! BANNER -->
+    <section class="banner">
+      <div class="container">
+        <div class="banner__content">
+          <div class="content__text title">
+            <h2 class="animate__animated animate__fadeInUp">We are The Best</h2>
+            <h1 class="animate__animated animate__fadeInUp animate__delay-1s">
+              Freelance Product <br />
+              Designer Running
+            </h1>
+            <p class="animate__animated animate__fadeInUp animate__delay-2s">
+              We develop the relationships that underpin the next phase in
+              your<br />
+              organization's growth.
+            </p>
+            <ul class="animate__animated animate__fadeInUp animate__delay-3s">
+              <li>
+                <i class="las la-check"></i>
+                <p>Master's degree in designing</p>
+              </li>
+              <li>
+                <i class="las la-check"></i>
+                <p>Outstanding mobile design</p>
+              </li>
+            </ul>
+            <button
+              class="btn-gradient animate__animated animate__fadeInUp animate__delay-4s"
+            >
+              Get started
+            </button>
+          </div>
+          <div class="content__image">
+            <img
+              class="animate__animated animate__fadeInUp animate__delay-3s"
+              src="./img/pic3_1.png"
+              alt="Men with Questions"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ! SERVICE -->
+    <section id="service" class="service">
+      <div class="container">
+        <!-- title -->
+        <div class="title">
+          <h2>What We Do Best</h2>
+          <h1>Our Digital Services</h1>
+        </div>
+        <!-- content -->
+        <div class="service__content">
+          <!-- card item 1 -->
+          <div class="content__item">
+            <img src="./img/pic1_3.jpg" alt="Service 1" />
+            <h3>Web Development</h3>
+            <p>
+              Vestibulum a efficitur ex. Ut iaculis dapibus iaculis. Praesent
+              lacus magna, rhoncus quis magna quis
+            </p>
+          </div>
+          <!-- card item 2 -->
+          <div class="content__item">
+            <img src="./img/pic2_2.jpg" alt="Service 2" />
+            <h3>Strategy & Research</h3>
+            <p>
+              Vestibulum a efficitur ex. Ut iaculis dapibus iaculis. Praesent
+              lacus magna, rhoncus quis magna quis
+            </p>
+          </div>
+          <!-- card item 3 -->
+          <div class="content__item">
+            <img src="./img/pic3_2.jpg" alt="Service 3" />
+            <h3>Growth Tracking</h3>
+            <p>
+              Vestibulum a efficitur ex. Ut iaculis dapibus iaculis. Praesent
+              lacus magna, rhoncus quis magna quis
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ! ABOUT -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about__content">
+          <div
+            class="content__image animate__animated animate__fadeInLeft animate__slow wow"
+          >
+            <img src="./img/pic1.jpg" alt="About Pic" />
+          </div>
+          <div
+            class="content__text animate__animated animate__fadeInRight animate__slow wow"
+          >
+            <div class="title">
+              <h2>About Us</h2>
+              <h1>Build Your Business Website Better</h1>
+            </div>
+            <p>
+              Proin laoreet leo vel enim gravida, at porttitor metus ultricies.
+              Cras eu velit enim. Vivamus blandit, dolor ut aliquet rutrum, ex
+              elit mattis sapien, non molestie felis neque et nulla. Sed euismod
+              turpis id nibh suscipit semper. Pellentesque dapibus risus arcu.
+            </p>
+            <ul>
+              <!-- Check List 1 -->
+              <li>
+                <i class="flaticon-check"></i>
+                <p>
+                  We support programs that create advancement opportunities for
+                  people
+                </p>
+              </li>
+              <!-- Check List 2 -->
+              <li>
+                <i class="flaticon-check"></i>
+                <p>
+                  Get a view of events and trends. Be updated on our recent news
+                </p>
+              </li>
+              <!-- Check List 3 -->
+              <li>
+                <i class="flaticon-check"></i>
+                <p>
+                  Finally, it all comes down to people. Creating a winning team
+                </p>
+              </li>
+              <!-- Check List 4 -->
+              <li>
+                <i class="flaticon-check"></i>
+                <p>
+                  Get a view of events and trends. Be updated on our recent news
+                </p>
+              </li>
+            </ul>
+            <button class="btn-gradient">Learn more</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ! NUMBER -->
+    <section class="number">
+      <div class="container">
+        <div class="number__content">
+          <!-- Number Item 1 -->
+          <div class="content__item">
+            <i class="flaticon-smile"></i>
+            <p><span class="counter">18</span> MI</p>
+            <p>Satisfied Clients</p>
+          </div>
+          <!-- Number Item 2 -->
+          <div class="content__item">
+            <i class="flaticon-line-chart"></i>
+            <p><span class="counter">20</span> MI</p>
+            <p>Project Completed</p>
+          </div>
+          <!-- Number Item 3 -->
+          <div class="content__item">
+            <i class="flaticon-startup"></i>
+            <p><span class="counter">30</span> MI</p>
+            <p>Project Lunched</p>
+          </div>
+          <!-- Number Item 4 -->
+          <div class="content__item">
+            <i class="flaticon-confetti"></i>
+            <p><span class="counter">50</span> MI</p>
+            <p>Years Completed</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ! FEATURE -->
+    <section class="feature">
+      <div class="container">
+        <div class="feature__content">
+          <!-- LEFT: TEXT -->
+          <div class="content__text">
+            <div
+              class="title animate__animated animate__fadeInLeft animate__slow wow"
+              data-wow-delay="0.2s"
+            >
+              <h2>Our Features</h2>
+              <h1>Behind The Story Of Samar Agency</h1>
+            </div>
+            <div class="text__group">
+              <!-- ITEM 1 -->
+              <div
+                class="text__item animate__animated animate__fadeInRight animate__slow wow"
+                data-wow-delay="0.4s"
+              >
+                <div class="text__card">
+                  <i class="flaticon-idea"></i>
+                  <div>
+                    <h3>Idea & Analysis Gathering</h3>
+                    <p>
+                      Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl
+                      leo, sit amet consequat augue
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- ITEM 2 -->
+              <div
+                class="text__item animate__animated animate__fadeInRight animate__slow wow"
+                data-wow-delay="0.6s"
+              >
+                <div class="text__card">
+                  <i class="flaticon-coding"></i>
+                  <div>
+                    <h3>Design & Developing</h3>
+                    <p>
+                      Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl
+                      leo, sit amet consequat augue
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- ITEM 3 -->
+              <div
+                class="text__item animate__animated animate__fadeInRight animate__slow wow"
+                data-wow-delay="0.8s"
+              >
+                <div class="text__card">
+                  <i class="flaticon-rocket"></i>
+                  <div>
+                    <h3>Testing & Lunching</h3>
+                    <p>
+                      Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl
+                      leo, sit amet consequat augue
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- RIGHT: IMAGE -->
+          <div class="content__image">
+            <img src="./img/pic3.png" alt="Feature Pic" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ! PORTFOLIO -->
+    <section class="portfolio">
+      <div class="container">
+        <!-- TITLE -->
+        <div class="title">
+          <h2>Portfolio</h2>
+          <h1>Our Latest Work</h1>
+        </div>
+        <!-- CONTENT -->
+        <div class="portfolio__content">
+          <!-- ITEM 1 -->
+          <div
+            class="content__item animate__animated animate__fadeInUp animate__slow wow"
+          >
+            <img src="./img/pic1_2.jpg" alt="Portfolio 1" />
+            <div class="content__overlay">
+              <a
+                href="./img/pic1_2.jpg"
+                data-thumb="./img/pic1_2.jpg"
+                data-fancybox="gallery"
+                data-caption="Design 1"
+              >
+                <i class="las la-plus"></i>
+              </a>
+              <div>
+                <p>Software Landing</p>
+                <p>By John Doe</p>
+              </div>
+            </div>
+          </div>
+          <!-- ITEM 2 -->
+          <div
+            class="content__item animate__animated animate__fadeInUp animate__slow wow"
+          >
+            <img src="./img/pic2_1.jpg" alt="Portfolio 2" />
+            <div class="content__overlay">
+              <a
+                href="./img/pic2_1.jpg"
+                data-thumb="./img/pic2_1.jpg"
+                data-fancybox="gallery"
+                data-caption="Design 2"
+              >
+                <i class="las la-plus"></i>
+              </a>
+              <div>
+                <p>Software Landing</p>
+                <p>By John Doe</p>
+              </div>
+            </div>
+          </div>
+          <!-- ITEM 3 -->
+          <div
+            class="content__item animate__animated animate__fadeInUp animate__delay-1s animate__slow wow"
+          >
+            <img src="./img/pic3_1.jpg" alt="Portfolio 3" />
+            <div class="content__overlay">
+              <a
+                href="./img/pic3_1.jpg"
+                data-thumb="./img/pic3_1.jpg"
+                data-fancybox="gallery"
+                data-caption="Design 3"
+              >
+                <i class="las la-plus"></i>
+              </a>
+              <div>
+                <p>Software Landing</p>
+                <p>By John Doe</p>
+              </div>
+            </div>
+          </div>
+          <!-- ITEM 4 -->
+          <div
+            class="content__item animate__animated animate__fadeInUp animate__delay-1s animate__slow wow"
+          >
+            <img src="./img/pic4.jpg" alt="Portfolio 4" />
+            <div class="content__overlay">
+              <a
+                href="./img/pic4.jpg"
+                data-thumb="./img/pic4.jpg"
+                data-fancybox="gallery"
+                data-caption="Design 4"
+              >
+                <i class="las la-plus"></i>
+              </a>
+              <div>
+                <p>Software Landing</p>
+                <p>By John Doe</p>
+              </div>
+            </div>
+          </div>
+          <!-- ITEM 5 -->
+          <div
+            class="content__item animate__animated animate__fadeInUp animate__delay-2s animate__slow wow"
+          >
+            <img src="./img/pic5.jpg" alt="Portfolio 5" />
+            <div class="content__overlay">
+              <a
+                href="./img/pic5.jpg"
+                data-thumb="./img/pic5.jpg"
+                data-fancybox="gallery"
+                data-caption="Design 5"
+              >
+                <i class="las la-plus"></i>
+              </a>
+              <div>
+                <p>Software Landing</p>
+                <p>By John Doe</p>
+              </div>
+            </div>
+          </div>
+          <!-- ITEM 6 -->
+          <div
+            class="content__item animate__animated animate__fadeInUp animate__delay-1s animate__slow wow"
+          >
+            <img src="./img/pic6.jpg" alt="Portfolio 6" />
+            <div class="content__overlay">
+              <a
+                href="./img/pic6.jpg"
+                data-thumb="./img/pic6.jpg"
+                data-fancybox="gallery"
+                data-caption="Design 6"
+              >
+                <i class="las la-plus"></i>
+              </a>
+              <div>
+                <p>Software Landing</p>
+                <p>By John Doe</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ! BLOG -->
+    <section id="blog" class="blog">
+      <div class="container">
+        <!-- title -->
+        <div class="title">
+          <h2>Our Blog</h2>
+          <h1>Latest News & Blog</h1>
+        </div>
+        <!-- Owl Carousel -->
+        <div class="owl-carousel blog__content">
+          <!-- ITEM 1 -->
+          <div class="content__item">
+            <!-- ITEM - image -->
+            <div class="item__image">
+              <img src="./img/pic1_1.jpg" alt="Blog Pic 1" />
+              <p>23 MARCH 2022</p>
+            </div>
+            <!-- ITEM - main content -->
+            <div class="item__text">
+              <h3>Lorem ipsum dolor sit amet consectetur</h3>
+              <p>
+                Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac
+                aliquam. Phasellus justo quam
+              </p>
+            </div>
+            <!-- ITEM - footer -->
+            <div class="item__footer">
+              <p><i class="lar la-user-circle"></i> By <span>John doe</span></p>
+              <p><i class="las la-comment"></i> Comments 15</p>
+            </div>
+          </div>
+          <!-- ITEM 2 -->
+          <div class="content__item">
+            <!-- ITEM - image -->
+            <div class="item__image">
+              <img src="./img/pic2.jpg" alt="Blog Pic 2" />
+              <p>23 MARCH 2022</p>
+            </div>
+            <!-- ITEM - main content -->
+            <div class="item__text">
+              <h3>Lorem ipsum dolor sit amet consectetur</h3>
+              <p>
+                Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac
+                aliquam. Phasellus justo quam
+              </p>
+            </div>
+            <!-- ITEM - footer -->
+            <div class="item__footer">
+              <p><i class="lar la-user-circle"></i> By <span>John doe</span></p>
+              <p><i class="las la-comment"></i> Comments 15</p>
+            </div>
+          </div>
+          <!-- ITEM 3 -->
+          <div class="content__item">
+            <!-- ITEM - image -->
+            <div class="item__image">
+              <img src="./img/pic3.jpg" alt="Blog Pic 3" />
+              <p>23 MARCH 2022</p>
+            </div>
+            <!-- ITEM - main content -->
+            <div class="item__text">
+              <h3>Lorem ipsum dolor sit amet consectetur</h3>
+              <p>
+                Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac
+                aliquam. Phasellus justo quam
+              </p>
+            </div>
+            <!-- ITEM - footer -->
+            <div class="item__footer">
+              <p><i class="lar la-user-circle"></i> By <span>John doe</span></p>
+              <p><i class="las la-comment"></i> Comments 15</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ! FOOTER -->
+    <footer id="contact">
+      <!-- top -->
+      <div class="container">
+        <!-- subcribe -->
+        <div
+          class="footer__subscribe animate__animated animate__fadeInUp animate__slow wow"
+        >
+          <h2>Subscribe To Our Newsletter</h2>
+          <form action="#">
+            <input type="email" placeholder="Your Email Address" />
+            <button type="submit">
+              <i class="las la-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+        <!-- menu list -->
+        <div
+          class="footer__list animate__animated animate__fadeIn animate__delay-1s animate__slow wow"
+        >
+          <!-- ITEM 01 -->
+          <div class="list__item">
+            <a href="#">
+              <img src="./img/logo-white.png" alt="Footer Logo" />
+            </a>
+            <ul>
+              <!-- item 1 -->
+              <li class="item__1">
+                <i class="fa fa-phone"></i>
+                <div>
+                  <p>1800-123-4567</p>
+                  <p>+91 987-654-3210</p>
+                </div>
+              </li>
+              <!-- item 2 -->
+              <li class="item__1">
+                <i class="fa fa-envelope"></i>
+                <div>
+                  <p>info@example.com</p>
+                  <p>services@gmail.com</p>
+                </div>
+              </li>
+              <!-- item 3 -->
+              <li class="item__1">
+                <i class="fa fa-map-marker-alt"></i>
+                <div>
+                  <p>Demo Address #8901 Marmora Road City</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- ITEM 02 -->
+          <div class="list__item">
+            <h3>Our links</h3>
+            <ul>
+              <li>
+                <a href="#"> <i class="fa fa-angle-right"></i> Home </a>
+              </li>
+              <li>
+                <a href="#"> <i class="fa fa-angle-right"></i> About Us </a>
+              </li>
+              <li>
+                <a href="#"> <i class="fa fa-angle-right"></i> Services </a>
+              </li>
+              <li>
+                <a href="#"> <i class="fa fa-angle-right"></i> Team </a>
+              </li>
+              <li>
+                <a href="#"> <i class="fa fa-angle-right"></i> Blog </a>
+              </li>
+            </ul>
+          </div>
+          <!-- ITEM 03 -->
+          <div class="list__item">
+            <h3>Our Services</h3>
+            <ul>
+              <li>
+                <a href="#">
+                  <i class="fa fa-angle-right"></i> Strategy & Research
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-angle-right"></i> Web Development
+                </a>
+              </li>
+              <li>
+                <a href="#"> <i class="fa fa-angle-right"></i> Web Solution </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-angle-right"></i> Digital Marketing
+                </a>
+              </li>
+              <li>
+                <a href="#"> <i class="fa fa-angle-right"></i> App Design </a>
+              </li>
+            </ul>
+          </div>
+          <!-- ITEM 04 -->
+          <div class="list__item">
+            <h3>Other links</h3>
+            <ul>
+              <li>
+                <a href="#"> <i class="fa fa-angle-right"></i> FAQ </a>
+              </li>
+              <li>
+                <a href="#"> <i class="fa fa-angle-right"></i> Portfolio </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-angle-right"></i> Privacy Policy
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-angle-right"></i> Terms & Conditions
+                </a>
+              </li>
+              <li>
+                <a href="#"> <i class="fa fa-angle-right"></i> Support </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- bottom -->
+      <div class="footer__copyright">
+        <div class="container">
+          <div class="copyright__content">
+            <p>
+              Copyright &copy; 2021 <span>DexignZone</span>. All rights
+              reserved.
+            </p>
+            <div class="copyright__social">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ! TOP -->
+    <a href="#" class="backToTop cd-top text-replace js-cd-top">
+      <i class="fa fa-arrow-up"></i>
+    </a>
+
+    <!-- ! Libraries -->
+    <!-- ! Jquery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+      integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- ! Wow: reveal when scrolling -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+      integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      new WOW().init();
+    </script>
+
+    <!-- ! Waypoints -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+      integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- ! Count up -->
+    <script src="./js/jquery.countup.min.js"></script>
+    <script>
+      $(".counter").countUp({
+        time: 2000,
+      });
+    </script>
+
+    <!-- ! Fancy Box -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+    <!-- ! Owl Carousel -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          loop: true,
+          margin: 30,
+          responsive: {
+            0: {
+              items: 3,
+            },
+          },
+        });
+      });
+    </script>
+
+    <!-- ! BacktoTop Codyhouse -->
+    <script src="./js/util.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
